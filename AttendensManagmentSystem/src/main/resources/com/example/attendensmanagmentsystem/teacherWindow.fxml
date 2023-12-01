@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <TableView fx:id="table" layoutY="14.0" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+            <TableColumn fx:id="rollNo" text="Roll No." />
+            <TableColumn fx:id="name" text="Name" />
+            <TableColumn fx:id="subjectAttended" text="Subject Attended" />
+            <TableColumn fx:id="subjectAbsent" text="Subject Absent" />
+            <TableColumn fx:id="subjectTotal" text="Subject Total" />
+            <TableColumn fx:id="subjectAverage" text="Subject Average" />
+            <TableColumn fx:id="attendancePercentage" text="Attendance %" />
+        </columns>
+    </TableView>
+    <Button fx:id="updateAttendance" layoutX="72.0" layoutY="414.0" text="Update Attendance" />
+    <Button fx:id="getStudentDetails" layoutX="240.0" layoutY="414.0" text="Get Student Details" />
+    <Button fx:id="getDefaulters" layoutX="404.0" layoutY="414.0" text="Get Defaulters" />
+</AnchorPane>
